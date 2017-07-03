@@ -3,7 +3,7 @@ package com.rinc.basics;
 /**
  * Created by young on 2017-06-30.
  */
-public class C_PlPlExam {
+public class C_IncreaseExam {
     //증감, 감소 예제
     public static void main(String[] args) {
         int i = 0;

@@ -18,6 +18,7 @@ public class O_ExtendsOverrideExam {
 }
 
 class KimGenius extends Human {
+
     boolean coding;
 
     public void setCoding(boolean coding) {
@@ -37,6 +38,10 @@ class KimGenius extends Human {
 
 class Human {
     String name;
+
+    public Human() {
+        name = "인간";
+    }
 
     public String getName() {
         return name;

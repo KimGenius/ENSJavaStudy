@@ -13,6 +13,7 @@ public class B_ValueExam {
         float flo_a = 1.0f;
         char cha_a = 'a';
         char cha_b = 'ㄱ';
+        boolean bool_a = true;
 
         //String은 자료형이 아닌 클래스입니다
         String str_a = "asdf";
@@ -44,5 +45,14 @@ public class B_ValueExam {
 
         //String + String
         System.out.println(str_a + str_b);
+
+        //boolean
+        System.out.println(bool_a);
+
+        //boolean + String
+        System.out.println(bool_a + str_a);
+
+        //boolean + !String 은 전부 오류
+
     }
 }
