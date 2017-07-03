@@ -5,7 +5,7 @@ package com.rinc.basics;
  */
 public class M_ObjectMethodExam {
     public static void main(String[] args) {
-
+        Exam exam = new Exam();
     }
 }
 
