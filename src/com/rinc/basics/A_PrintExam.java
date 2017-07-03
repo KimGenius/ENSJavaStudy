@@ -1,4 +1,4 @@
-package com.rinc;
+package com.rinc.basics;
 
 public class A_PrintExam {
     //기본 출력 예제

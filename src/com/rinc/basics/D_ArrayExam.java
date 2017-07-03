@@ -1,9 +1,9 @@
-package com.rinc;
+package com.rinc.basics;
 
 /**
  * Created by young on 2017-06-30.
  */
-public class D_Array_Exam {
+public class D_ArrayExam {
     //배열 예제
     public static void main(String[] args) {
         //선언 부분

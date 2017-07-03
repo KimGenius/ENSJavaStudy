@@ -1,4 +1,4 @@
-package com.rinc;
+package com.rinc.basics;
 
 /**
  * Created by young on 2017-06-30.
