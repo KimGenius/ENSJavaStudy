@@ -3,10 +3,10 @@ package com.rinc.basics;
 /**
  * Created by young on 2017-07-03.
  */
-public class P_OverridingExam {
+public class Q_OverridingExam {
     //메소드 오버라이딩 예제
     public static void main(String[] args) {
-        P_OverridingExam pOverridingExam = new P_OverridingExam();
+        Q_OverridingExam pOverridingExam = new Q_OverridingExam();
         pOverridingExam.say("김영재");
         pOverridingExam.say("김영재", 19);
     }
