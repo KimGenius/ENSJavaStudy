@@ -18,7 +18,7 @@ public class P_AccessExam extends ProtectClass {
         publicClass.publicStatus = "공용 설정 성공";
 
         PrivateClass privateClass = new PrivateClass();
-//        privateClass.privateStatus = "내부 설정 성공"; // 뭔 짓을 해도 내부 변수는 바로 접근 불가
+//        privateClass.privateStatus = "내부 설정 성공"; // 뭔 짓을 해도 내부 변수는 바로 접근 불가 메소드를 통해 접근 가능
 
         DefaultClass defaultClass = new DefaultClass();
 //        defaultClass.defaultClass = "기본 설정 성공"; // 같은 패키지 내에서만 접근이 가능
