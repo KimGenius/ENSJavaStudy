@@ -6,15 +6,17 @@ package com.rinc.basics;
 public class M_ObjectMethodExam {
     public static void main(String[] args) {
         Exam exam = new Exam();
+        exam.setMessage("ㅁㄴㅇㄹ");
+        exam.say();
     }
 }
 
 class Exam {
     String message;
-    private void say() {
+    public void say() {
         System.out.println(this.message);
     }
-    private void setMessage(String msg) {
+    public void setMessage(String msg) {
         this.message = msg;
     }
 }
