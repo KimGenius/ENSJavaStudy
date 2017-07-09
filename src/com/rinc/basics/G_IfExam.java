@@ -13,7 +13,13 @@ public class G_IfExam {
         } else {
             System.out.println("i 는 0이 아닙니다!");
         }
+        //1101 ~
+        //0101 ^
+        //1000
 
+        //12 <<
+        //00010100(2) >>
+        //24
 
         if (i == 0) {
             if (j == 1) {
