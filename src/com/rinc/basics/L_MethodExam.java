@@ -11,6 +11,14 @@ public class L_MethodExam {
         lMethodExam.say("반가워");
     }
 
+    public L_MethodExam() {
+        System.out.println("생성자");
+    }
+
+    public L_MethodExam(int a) {
+        System.out.println(a);
+    }
+
     private void say(String message) {
         System.out.println(message);
     }

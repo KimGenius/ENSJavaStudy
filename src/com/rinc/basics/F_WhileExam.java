@@ -16,7 +16,7 @@ public class F_WhileExam {
 
         //출력
         int i = 0;
-        while (i < 3) {
+        while (i > 3) { // 0 1 2
             System.out.println("int a " + i + "번째 : " + int_a[i]);
             i++;
         }
@@ -33,6 +33,6 @@ public class F_WhileExam {
         do {
             System.out.println("int a " + k + "번째 : " + int_a[k]);
             k++;
-        } while (k < 3);
+        } while (k > 3);
     }
 }

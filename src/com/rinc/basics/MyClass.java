@@ -3,7 +3,7 @@ package com.rinc.basics;
 /**
  * Created by young on 2017-07-08.
  */
-public class MyClass extends GrandFather{
+public class MyClass extends GrandFather {
 
     public MyClass(String name) {
         super(name);

@@ -23,8 +23,8 @@ class KimGenius extends Human {
 
     public void setCoding(boolean coding) {
         this.coding = coding;
+        super.getName();
     }
-
     public boolean isCoding() {
         return coding;
     }

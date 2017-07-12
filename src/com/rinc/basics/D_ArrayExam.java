@@ -1,5 +1,7 @@
 package com.rinc.basics;
 
+import java.util.ArrayList;
+
 /**
  * Created by young on 2017-06-30.
  */
@@ -18,6 +20,14 @@ public class D_ArrayExam {
         double[] dou_a = new double[3];
         String[] str_a = new String[3];
 
+        int[][] arr = new int[3][3];
+        arr[0][0] = 1;
+        arr[0][1] = 2;
+        arr[0][2] = 3;
+
+        System.out.println(arr[0][0]);
+        System.out.println(arr[0][1]);
+        System.out.println(arr[0][2]);
 
         //값 설정
         int_a[0] = 1;
