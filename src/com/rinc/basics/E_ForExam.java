@@ -17,15 +17,25 @@ public class E_ForExam {
         //출력
         for (int i = 0; i < 3; i++) { //i = 0, i < 3, i++ //3
             System.out.println("int a " + i + "번째 : " + int_a[i]);
+            // 0 : 1
+            // 1 : 2
+            // 2 : 3
         }
 
         for (int i = 2; i >= 0; i--) { //2 1 0 -1 >= 0
             System.out.println("int a " + i + "번째 : " + int_a[i]);
+            // i : array[i]
+            // 2 : 3
+            // 1 : 2
+            // 0 : 1
         }
 
         System.out.println("\n --- foreach --- \n");
 
         for (int i : int_a) {
+            // i = 1
+            // i = 2
+            // i = 3
             System.out.println("int a " + (i - 1) + "번째 : " + i);
         }
     }

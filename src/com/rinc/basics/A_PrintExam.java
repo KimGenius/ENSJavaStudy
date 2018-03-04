@@ -13,9 +13,7 @@ public class A_PrintExam {
         //println은 따로 줄바꿈을 안해도 자동으로 뒤에 \n이 붙습니다
         System.out.println("첫번째 줄");
         System.out.println("두번째 줄");
-    }
-    /*
 
-    sadfjsadfhklsadfhkjlsadhfkjlasdfkl
-     */
+        System.out.println("Hello~");
+    }
 }

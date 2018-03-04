@@ -11,7 +11,7 @@ public class B_ValueExam {
         long log_a = 1; //21억 >
         double dou_a = 1.0;  // 123 23 546 12.34
         float flo_a = 1.0f; //
-        char cha_a = 'a'; //ㄱ ㄴ
+        char cha_a = 'a'; //ㄱ ㄴ 1+'a' -> 98
         char cha_b = 'ㄱ';
         boolean bool_a = true; //true false
         //String은 자료형이 아닌 클래스입니다
@@ -40,7 +40,7 @@ public class B_ValueExam {
         System.out.println(str_a + cha_a);
 
         //String + int
-        System.out.println(str_a + int_a);
+        System.out.println("asdf" + int_a); // asdf1 -> "asdf1"
 
         //String + String
         System.out.println(str_a + str_b);
