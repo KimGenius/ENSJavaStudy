@@ -1,6 +1,6 @@
-# ENSJavaStudy
+# JavaStudy
 <p>
-  ENS Study
+  ENS Semina
 </p>
 <p>And</p>
 <p>
