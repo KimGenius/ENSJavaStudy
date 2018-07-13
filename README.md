@@ -1,6 +1,6 @@
 # ENSJavaStudy
 <p>
-  <a href="http://ens.rinc.cf">ENS</a> Study
+  ENS Study
 </p>
 <p>And</p>
 <p>
